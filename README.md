@@ -71,7 +71,7 @@ module.exports = {
 ```js
 {
 	"mock#1": 1,
-	"mock#2": 2,
+	"mock#2": 2
 }
 ```
 
@@ -137,7 +137,7 @@ module.exports = {
 [
 	{
 		"mock#1": 1,
-		"mock#2": 2,
+		"mock#2": 2
 	}
 ]
 ```
