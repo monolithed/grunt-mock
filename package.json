@@ -1,0 +1,44 @@
+{
+	"name"   : "grunt-mock",
+	"version": "0.0.1",
+	"author" : "Abashkin Alexander <monolithed@gmail.com>",
+	"homepage": "https://github.com/monolithed/grunt-mock.git",
+
+	"description": "The grunt task is used to execute the specified mock-functions and save the result",
+
+	"keywords": [ "grunt", "mock", "fake", "stub", "test" ],
+
+	"man": "README.md",
+
+	"engines": {
+		"node": ">=0.10.28"
+	},
+
+	"repository": {
+		"type": "git",
+		"url" :  "https://github.com/monolithed/grunt-mock.git"
+	},
+
+	"bugs": {
+		"url": "https://github.com/monolithed/grunt-mock/issues"
+	},
+
+	"scripts": {
+		"test": "grunt test"
+	},
+
+	"dependencies": {
+		"grunt": "^0.4.5"
+	},
+
+	"devDependencies": {
+		"grunt-contrib-nodeunit": "^0.4.1"
+	},
+
+	"licenses": [
+		{
+			"type": "MIT",
+			"url" : "http://www.opensource.org/licenses/mit-license.php"
+		}
+	]
+}
