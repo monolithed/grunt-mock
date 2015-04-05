@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-		'mock#1': function () {
+	'mock#1': function () {
 		return 1;
 	},
 
