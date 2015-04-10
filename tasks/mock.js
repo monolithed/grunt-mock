@@ -29,7 +29,7 @@ module.exports = function (grunt) {
 					});
 				}
 				catch (error) {
-					grunt.fail.fatal('[File reading]\n - ' + file, -1);
+					grunt.fail.fatal('[File reading]\n - ' + error, -1);
 				}
 			});
 
