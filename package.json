@@ -1,12 +1,12 @@
 {
 	"name"   : "grunt-mock",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author" : "Abashkin Alexander <monolithed@gmail.com>",
 	"homepage": "https://github.com/monolithed/grunt-mock.git",
 
 	"description": "The grunt task is used to execute the specified mock-functions and save the result",
 
-	"keywords": [ "grunt", "mock", "fake", "stub", "test" ],
+	"keywords": [ "grunt", "mock", "fake", "stub", "test", "dummy" ],
 
 	"man": "README.md",
 

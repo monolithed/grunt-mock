@@ -29,7 +29,8 @@ module.exports = function (grunt) {
 					});
 				}
 				catch (error) {
-					grunt.fail.fatal('[File reading]\n - ' + error, -1);
+					grunt.fail.fatal('[File reading]\n - \n' + file +
+						'\n' + error.stack, -1);
 				}
 			});
 
@@ -42,7 +43,7 @@ module.exports = function (grunt) {
 					}
 					catch (error) {
 						grunt.fail.fatal('[Mock execution]\n - ' +
-							error + ' in ' + mock, -1);
+							mock + ': ' + error.stack + ' in ', -1);
 					}
 				}
 			});
